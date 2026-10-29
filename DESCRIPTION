@@ -1,0 +1,25 @@
+Package: networkDEA
+Type: Package
+Title: Network Data Envelopment Analysis
+Version: 0.1.0
+Authors@R: person("Fatih", "Sağlam", role = c("aut", "cre"),
+    email = "saglamf89@gmail.com")
+Description: Efficiency measurement with network data envelopment analysis
+    (DEA), where each decision making unit is opened up into connected
+    sub-processes (nodes) linked by intermediate products. Implements
+    two-stage network DEA with the classical centralized model (Kao and Hwang,
+    2008; Liang, Cook and Zhu, 2008) and the flexible-synergy model of the
+    MaxDEA Team (2026), under constant and variable returns to scale with input
+    or output orientation, and a generalized network DEA model for arbitrary
+    serial and parallel node structures (MaxDEA Team, 2026). Linear programs
+    are solved with 'lpSolve'. This is an independent implementation of
+    published methods and is not affiliated with MaxDEA Software Ltd.
+URL: https://github.com/fatihsaglam/networkDEA
+BugReports: https://github.com/fatihsaglam/networkDEA/issues
+License: MIT + file LICENSE
+Encoding: UTF-8
+Imports: lpSolve, stats
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+Config/roxygen2/version: 8.1.1
